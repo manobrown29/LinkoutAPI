@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: linkout
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/linkout?createDatabaseIfNotExist=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
